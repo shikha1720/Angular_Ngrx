@@ -1,0 +1,14 @@
+<h1>Tasks</h1>
+<button class="btn-add" (click)="addTask()">Add New Task</button>
+<p *ngIf="tasks.length == 0">You Can Add your task here.</p>
+<div class="container">
+  <div class="card" *ngFor="let task of tasks">
+    <h3>{{ task.title }}</h3>
+    <hr />
+    <p>{{ task.description }}</p>
+    <button class="btn-update" (click)="updateTask(task.id)">Update Task</button>
+    <button class="btn-delete" (click)="deleteTask(task.id)">
+      Delete Task
+    </button>
+  </div>
+</div>

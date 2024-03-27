@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    height: 50%;
+    width: 50%;
+    margin-top: 10%;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: lightseagreen;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    margin:10px;
+}
